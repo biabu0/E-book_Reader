@@ -1,5 +1,5 @@
 # E-book_Reader
-  简单实现了一个支持utf-8编码文件，使用freetype矢量字体库，通过Framebuffer在LCD上显示电子书的程序。
+  实现了一个支持utf-8编码文件，使用freetype矢量字体库，通过Framebuffer在LCD上显示电子书的程序。
 # 主要模块
   进行分层处理，最上层为main主函数，此后为draw，来处理显示逻辑；之后通过三个模块管理不同的编码格式、字体文件和显示设备；
   ## 文件编码
