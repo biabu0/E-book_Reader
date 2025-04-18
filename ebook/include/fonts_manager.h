@@ -7,8 +7,8 @@ typedef struct FontBitMap {
 	int iYTop;
 	int iXMax;
 	int iYMax;
-	int iBpp;
-	int iPitch;   /**/
+	int iBpp;		// 位图中的像素表示方法，使用一位表示一个像素还是一个字节表示一个像素
+	int iPitch;   	// 跨度，对于单色位图，两行像素之间的跨度,表示‌单色位图‌中相邻两行像素数据在内存中的‌字节偏移量
 	int iCurOriginX;
 	int iCurOriginY;
 	int iNextOriginX;
@@ -27,8 +27,6 @@ typedef struct FontOpr {
 int RegisterFontOpr(PT_FontOpr ptFontOpr);
 void ShowFontOpr(void);
 int FontsInit(void);
-int ASCIIInit(void);
-int GBKInit(void);
 int FreeTypeInit(void);
 PT_FontOpr GetFontOpr(char *pcName);
 
