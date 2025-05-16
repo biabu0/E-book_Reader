@@ -6,9 +6,6 @@ CFLAGS  += -I$(PWD)/include
 # for 100ask imx6ull
 CFLAGS += -I /home/book/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/freetype2
 
-# for 100ask stm32mp157
-CFLAGS += -I /home/book/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/freetype2
-
 LDFLAGS := -lm -lfreetype
 
 CC 	:= $(CROSSCOMPILE)gcc
