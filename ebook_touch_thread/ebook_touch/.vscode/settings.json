@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "encoding_manager.h": "c",
+        "draw.h": "c"
+    }
+}
