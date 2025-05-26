@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "encoding_manager.h": "c",
+        "draw.h": "c",
+        "cstdlib": "c",
+        "fonts_manager.h": "c",
+        "config.h": "c"
+    }
+}
